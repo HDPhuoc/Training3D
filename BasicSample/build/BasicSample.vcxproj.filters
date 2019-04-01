@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7A82668F-F615-3901-B2A3-8613AA71DFDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{7e1bcff7-6980-474c-b7cd-ce5dbd55d0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{01944754-627b-45ff-9e1d-a9738c3e1d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{f6ddd6ef-98f5-4d02-889d-7ec0a6ff1779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Native">
+      <UniqueIdentifier>{ccb4dd0f-7ba3-40e7-b2b4-02386ec4efe7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shader\TextureTriangle_FS.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shader\TextureTriangle_VS.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shader\3DCoordinateSystems_FS.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shader\Line_FS.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shader\Line_VS.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shader\3DCoordinateSystems_VS.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shader\Light_FS.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shader\Light_VS.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shader\Cube_VS.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shader\Cube_FS.glsl">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Window\MyWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Window\HelloTriangle.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Window\TestMain.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RendererES3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Native\Native.cpp">
+      <Filter>Source Files\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Window\MyWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\RendererES3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Std.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Timer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Texture\wall.jpg">
+      <Filter>Texture</Filter>
+    </Image>
+    <Image Include="..\Texture\container.jpg">
+      <Filter>Texture</Filter>
+    </Image>
+    <Image Include="..\Texture\awesomeface.png">
+      <Filter>Texture</Filter>
+    </Image>
+    <Image Include="..\Texture\DHC.png">
+      <Filter>Texture</Filter>
+    </Image>
+    <Image Include="..\Texture\container2.png">
+      <Filter>Texture</Filter>
+    </Image>
+    <Image Include="..\Texture\container2_specular.png">
+      <Filter>Texture</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

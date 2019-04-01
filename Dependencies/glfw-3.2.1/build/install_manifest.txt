@@ -1,0 +1,8 @@
+D:/Dependencies/glfw-3.2.1/install/include/GLFW/glfw3.h
+D:/Dependencies/glfw-3.2.1/install/include/GLFW/glfw3native.h
+D:/Dependencies/glfw-3.2.1/install/lib/cmake/glfw3/glfw3Config.cmake
+D:/Dependencies/glfw-3.2.1/install/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+D:/Dependencies/glfw-3.2.1/install/lib/cmake/glfw3/glfw3Targets.cmake
+D:/Dependencies/glfw-3.2.1/install/lib/cmake/glfw3/glfw3Targets-debug.cmake
+D:/Dependencies/glfw-3.2.1/install/lib/pkgconfig/glfw3.pc
+D:/Dependencies/glfw-3.2.1/install/lib/glfw3.lib

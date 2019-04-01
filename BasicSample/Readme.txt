@@ -1,0 +1,1 @@
+NDK code sample => https://github.com/googlesamples/android-ndk.git

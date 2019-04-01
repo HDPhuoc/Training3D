@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/Dependencies/glfw-3.2.1/tests/CMakeLists.txt
+  CMake does not need to re-run because D:/Dependencies/glfw-3.2.1/build/tests/CMakeFiles/generate.stamp is up-to-date.
+  msaa.c
+  getopt.c
+  glad.c
+  Generating Code...
+  msaa.vcxproj -> D:\Dependencies\glfw-3.2.1\build\tests\Debug\msaa.exe
+  msaa.vcxproj -> D:/Dependencies/glfw-3.2.1/build/tests/Debug/msaa.pdb (Full PDB)

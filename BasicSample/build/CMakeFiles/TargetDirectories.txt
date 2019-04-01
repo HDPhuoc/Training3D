@@ -1,0 +1,3 @@
+D:/BasicSample/build/CMakeFiles/BasicSample.dir
+D:/BasicSample/build/CMakeFiles/ALL_BUILD.dir
+D:/BasicSample/build/CMakeFiles/ZERO_CHECK.dir

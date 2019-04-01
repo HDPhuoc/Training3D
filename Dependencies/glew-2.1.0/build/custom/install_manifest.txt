@@ -1,0 +1,14 @@
+D:/Dependencies/glew-2.1.0/install/lib/glew32d.lib
+D:/Dependencies/glew-2.1.0/install/bin/glew32d.dll
+D:/Dependencies/glew-2.1.0/install/lib/libglew32d.lib
+D:/Dependencies/glew-2.1.0/install/bin/glewinfo.exe
+D:/Dependencies/glew-2.1.0/install/bin/visualinfo.exe
+D:/Dependencies/glew-2.1.0/install/lib/pkgconfig/glew.pc
+D:/Dependencies/glew-2.1.0/install/lib/glew32d.pdb
+D:/Dependencies/glew-2.1.0/install/include/GL/wglew.h
+D:/Dependencies/glew-2.1.0/install/include/GL/glew.h
+D:/Dependencies/glew-2.1.0/install/include/GL/glxew.h
+D:/Dependencies/glew-2.1.0/install/lib/cmake/glew/glew-targets.cmake
+D:/Dependencies/glew-2.1.0/install/lib/cmake/glew/glew-targets-debug.cmake
+D:/Dependencies/glew-2.1.0/install/lib/cmake/glew/glew-config.cmake
+D:/Dependencies/glew-2.1.0/install/lib/cmake/glew/CopyImportedTargetProperties.cmake

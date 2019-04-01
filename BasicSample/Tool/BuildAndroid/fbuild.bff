@@ -1,0 +1,67 @@
+// 3DEngine
+//------------------------------------------------------------------------------
+
+// Windows Platform (VS 2013 Compiler, Windows 7.1A SDK)
+//------------------------------------------------------------------------------
+.VSBasePath         = 'C:\Program Files (x86)\Microsoft Visual Studio 14.0'
+.WindowsSDKBasePath = 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A'
+
+// Android Paths
+//------------------------------------------------------------------------------
+.NDKToolchains       		= 'D:\DevTools\android-sdk-windows\ndk-bundle\toolchains'
+.NDKToolchainArmGccRoot 	= '$NDKToolchains$\arm-linux-androideabi-4.9\prebuilt\windows-x86_64'
+.NDKToolchainArm64GccRoot 	= '$NDKToolchains$\aarch64-linux-android-4.9\prebuilt\windows-x86_64'
+.NDKToolchainX86GccRoot 	= '$NDKToolchains$\x86-4.9\prebuilt\windows-x86_64'
+.NDKToolchainClangRoot 		= '$NDKToolchains$\llvm\prebuilt\windows-x86_64\bin'
+.NDKLibs 					= 'D:\DevTools\android-sdk-windows\ndk-bundle\sources\cxx-stl\llvm-libc++\libs\armeabi-v7a\'
+// Settings
+//------------------------------------------------------------------------------
+Settings
+{
+    .Environment    = { "PATH=$VSBasePath$\Common7\IDE\;$VSBasePath$\VC\bin\",
+                        "TMP=C:\Windows\Temp",
+                        "SystemRoot=C:\Windows" }
+}
+
+// Include paths
+//------------------------------------------------------------------------------
+.BaseIncludePaths   = ' -I"D:\DevTools\android-sdk-windows\ndk-bundle\sources\android\support\include"'
+                    + ' -I"D:\DevTools\android-sdk-windows\ndk-bundle\sources\cxx-stl\llvm-libc++\include"'
+                    + ' -I"D:\DevTools\android-sdk-windows\ndk-bundle\sysroot\usr\include"'
+                    + ' -I"D:\DevTools\android-sdk-windows\ndk-bundle\sysroot\usr\include\i686-linux-android"'
+                    + ' -I"D:\Dependencies\glm-0.9.8.5"'
+                    + ' -I"D:\Dependencies\soil\src"'
+					
+// Compiler - linker 
+//------------------------------------------------------------------------------
+.DEFINE             = ' -DOS_ANDROID'
+.Compiler           = '$NDKToolchainClangRoot$\clang++.exe'
+.CompilerOptions    = .BaseIncludePaths
+.CompilerOptions    + ' $DEFINE$ -std=c++11 -target armv7-none-linux-androideabi -c %1 -o %2'
+
+.Linker             = '$NDKToolchainClangRoot$\clang++.exe'
+.LinkerOptions      = ' -Wl,-soname,%2 -shared %1 -lstdc++ -lGLESv2 -lc++_static -lc++abi -static-libstdc++ -llog -lc -lm -lz -ldl -lgcc -landroid -lOpenSLES -lEGL -lgcc -gcc-toolchain $NDKToolchainArmGccRoot$ -march=armv7-a -target armv7-none-linux-androideabi --sysroot="D:\DevTools\android-sdk-windows\ndk-bundle\platforms\android-21\arch-arm" -o %2 -v'
+
+// Library paths
+//------------------------------------------------------------------------------
+.LibPaths           = ' /LIBPATH:"$NDKLibs$"'
+.LinkerOptions      + ' -L$NDKLibs$'
+
+// 3DEngine
+//------------------------------------------------------------------------------
+ObjectList( '3DEngine-Lib' )
+{
+    .CompilerInputPath 		    = 'D:\BasicSample\Source'
+    .CompilerOutputPath 	    = 'D:\BasicSample\build\Android\'
+    .CompilerOutputExtension    = '.o'
+}
+
+Executable( '3DEngine' )
+{
+    .Libraries          = { "3DEngine-Lib" }
+    .LinkerOutput       = 'D:\BasicSample\build\Android\armeabi-v7a\lib3DEngineSO.so'
+}
+
+// All
+//------------------------------------------------------------------------------
+Alias( 'all' ) { .Targets = { '3DEngine' } }

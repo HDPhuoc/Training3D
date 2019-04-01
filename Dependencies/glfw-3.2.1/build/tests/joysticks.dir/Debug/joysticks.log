@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Dependencies/glfw-3.2.1/tests/CMakeLists.txt
+  CMake does not need to re-run because D:/Dependencies/glfw-3.2.1/build/tests/CMakeFiles/generate.stamp is up-to-date.
+  joysticks.c
+  glad.c
+  Generating Code...
+  joysticks.vcxproj -> D:\Dependencies\glfw-3.2.1\build\tests\Debug\joysticks.exe
+  joysticks.vcxproj -> D:/Dependencies/glfw-3.2.1/build/tests/Debug/joysticks.pdb (Full PDB)

@@ -1,0 +1,51 @@
+===get git version===
+git --version
+
+===check status of git src===
+git status
+
+===see log git===
+git logg
+
+===view detail of a commit===
+git show <commit-id> (Exp : git show f8038e4)
+
+===trace log commit of a file===
+gitk --follow file
+
+===Initialized empty Git repository===
+git init
+
+===add file to index for commit===
+git add hello.txt (for file) or git add. (for folder)
+
+===commit file===
+git commit -m "message"
+
+===Add a new remote to your reposity===
+git remote add [shortname] [url](Exp : git remote add origin https://github.com/user/repo.git)
+
+===Rename a remote===
+git remote rename [old-name] [new-name] (Exp : git remote rename pb paul)
+
+===Delete a remote===
+git remote rm [name of remote]
+
+===clean files untracked===
+git clean -fd
+
+===Resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded.===
+git reset --hard
+
+===Upload all the commit to server===
+git push [remote] [local-branch] (Exp : git push origin master)
+
+===discard changes a file in working directory===
+git checkout -- <file> (Exp : git checkout -- CONTRIBUTING.md)
+
+===Cloning to a specific folder===
+git clone <repo> <directory>
+Clone the repository located at <repo> into the folder called ~<directory>! on the local machine.
+
+===Cloning a specific tag===
+git clone -branch <tag> <repo

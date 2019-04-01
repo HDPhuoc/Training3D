@@ -1,0 +1,124 @@
+The system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/19/2018 2:25:34 PM.
+Project "D:\Dependencies\glfw-3.2.1\build\CMakeFiles\3.10.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Dependencies\glfw-3.2.1\build\CMakeFiles\3.10.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\Dependencies\glfw-3.2.1\build\CMakeFiles\3.10.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Dependencies/glfw-3.2.1/build/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Dependencies/glfw-3.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_be2f7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/19/2018 2:25:36 PM.
+Project "D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\cmTC_be2f7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_be2f7.dir\Debug\".
+  Creating directory "D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_be2f7.dir\Debug\cmTC_be2f7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_be2f7.dir\Debug\cmTC_be2f7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be2f7.dir\Debug\\" /Fd"cmTC_be2f7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be2f7.dir\Debug\\" /Fd"cmTC_be2f7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_be2f7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dependencies/glfw-3.2.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_be2f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dependencies/glfw-3.2.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_be2f7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_be2f7.dir\Debug\testCCompiler.obj
+  cmTC_be2f7.vcxproj -> D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_be2f7.exe
+  cmTC_be2f7.vcxproj -> D:/Dependencies/glfw-3.2.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_be2f7.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_be2f7.dir\Debug\cmTC_be2f7.tlog\unsuccessfulbuild".
+  Touching "cmTC_be2f7.dir\Debug\cmTC_be2f7.tlog\cmTC_be2f7.lastbuildstate".
+Done Building Project "D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\cmTC_be2f7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Dependencies/glfw-3.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6d912.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/19/2018 2:25:36 PM.
+Project "D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\cmTC_6d912.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6d912.dir\Debug\".
+  Creating directory "D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6d912.dir\Debug\cmTC_6d912.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6d912.dir\Debug\cmTC_6d912.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d912.dir\Debug\\" /Fd"cmTC_6d912.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d912.dir\Debug\\" /Fd"cmTC_6d912.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_6d912.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dependencies/glfw-3.2.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_6d912.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dependencies/glfw-3.2.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_6d912.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6d912.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_6d912.vcxproj -> D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\Debug\cmTC_6d912.exe
+  cmTC_6d912.vcxproj -> D:/Dependencies/glfw-3.2.1/build/CMakeFiles/CMakeTmp/Debug/cmTC_6d912.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_6d912.dir\Debug\cmTC_6d912.tlog\unsuccessfulbuild".
+  Touching "cmTC_6d912.dir\Debug\cmTC_6d912.tlog\cmTC_6d912.lastbuildstate".
+Done Building Project "D:\Dependencies\glfw-3.2.1\build\CMakeFiles\CMakeTmp\cmTC_6d912.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.44
+
+
